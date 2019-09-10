@@ -3,4 +3,4 @@ project(Cola)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Cola main.cpp)
+add_executable(Cola main.cpp FIFO.cpp FIFO.h)
