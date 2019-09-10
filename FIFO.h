@@ -7,7 +7,14 @@ struct Node{
 };
 
 class FIFO {
-
+private:
+    int nodeNumber = 0;
+public:
+    Node* head;
+    Node* end;
+    FIFO();
+    void addNode(int);
+    void popNode(int&);
 };
 
 
